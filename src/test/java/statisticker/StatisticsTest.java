@@ -27,7 +27,7 @@ public class StatisticsTest
     @Test
     public void reportsNaNForEmptyInput()
     {
-        List<___> emptyList = new ArrayList<___>();
+        List<Float> emptyList = new ArrayList<Float>();
 
         Statistics.Stats s = Statistics.getStatistics(emptyList);
         Assert.assertEquals(s.min.isNaN(),true);
