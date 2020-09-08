@@ -15,7 +15,7 @@ public class Statistics
         Statistics.Stats s = new Stats();
         if(numbers.isEmpty())
         {
-            return s;
+            return (s);
         }
         Float sum = 0f;
         s.min = Collections.min(numbers);
@@ -24,7 +24,7 @@ public class Statistics
         {
             sum+=n;
         }
-        s.average = sum/numbers.size();
+        s.average = sum/(numbers.size());
     }
-    return s;
+    return (s);
 }
