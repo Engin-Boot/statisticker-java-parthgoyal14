@@ -25,6 +25,6 @@ public class Statistics
             sum+=n;
         }
         s.average = sum/(numbers.size());
+        return (s);
     }
-    return (s);
 }
